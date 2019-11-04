@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import { Spring } from 'react-spring/renderprops';
 import Frames from './components/Frames';
+import new1 from './assets/1.jpg';
+import new2 from './assets/2.jpg';
+import new5 from './assets/5.jpg';
+import new6 from './assets/6.jpg';
+import new9 from './assets/9.jpg';
+import new51 from './assets/51.jpg';
+import new15 from './assets/15.jpg';
+import new22 from './assets/22.jpg';
+import new24 from './assets/24.JPG';
 import a from './assets/a.JPG';
 import a1 from './assets/a1.JPG';
 import b from './assets/b.JPG';
@@ -28,9 +37,17 @@ class App extends Component {
         this.state = {
             image: {},
             viewPanel: false,
-            images: [{ src: a1, title: "Quiet Time", description: "6 months old", vertical: false },
+            images: [
+            { src: new1, title: "New Born", description: "1 months old", vertical: true },
+            { src: new2, title: "Curiosity", description: "2 months old", vertical: false },
+            { src: new5, title: "Sweet Smile", description: "5 months old", vertical: false },
+            { src: new51, title: "First Christmas", description: "5 months old", vertical: true },
+            { src: new6, title: "Sun Shine", description: "6 months old", vertical: true },
+            { src: a1, title: "Quiet Time", description: "6 months old", vertical: false },
+            { src: new9, title: "Serious", description: "9 months old", vertical: false },
             { src: a, title: "Birthday Girl", description: "1 year old", vertical: true },
             { src: b, title: "On the Grass", description: "13 months old", vertical: true },
+            { src: new15, title: "My first Backpack", description: "15 months old", vertical: true },
             { src: c, title: "Twinkling Lights", description: "16 months old", vertical: false },
             { src: d, title: "My Angel", description: "17 months old", vertical: false },
             { src: e, title: "Smelling Good!", description: "17 months old", vertical: true },
@@ -39,8 +56,10 @@ class App extends Component {
             { src: h, title: "In The Wild", description: "19 months old", vertical: true },
             { src: i, title: "Bubble Time", description: "20 months old", vertical: true },
             { src: j, title: "Deep Thoughts", description: "20 months old", vertical: true },
+            { src: new22, title: "Elegant Lady", description: "22 months old", vertical: true},
             { src: k, title: "At the Beach", description: "22 months old", vetical: false },
             { src: l, title: "Scream", description: "22 months old", vertical: false },
+            { src: new24, title: "Flower Dress", description: "2 years old", vertical: true },
             { src: m, title: "Love the Flowers", description: "2 years old", vertical: true },
             { src: n, title: "Laugh", description: "2 years old", vertical: true },
             { src: o, title: "Wind", description: "26 months old", vertical: false },
