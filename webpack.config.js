@@ -13,8 +13,10 @@ module.exports = {
         path: path.resolve(__dirname, "dist")
     },
     devServer: {
+        disableHostCheck: true,
         contentBase: './dist',
         compress: true,
+        inline:true,
         port:PORT,
         host:HOST,
         //if you don't set up the port, default will be 8080
