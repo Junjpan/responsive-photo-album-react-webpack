@@ -29,6 +29,9 @@ import o from './assets/o.JPG';
 import p from './assets/p.JPG';
 import q from './assets/q.JPG';
 import r from './assets/r.JPG';
+import s from './assets/s.JPG';
+import t from './assets/t.JPG';
+import u from './assets/u.JPG';
 
 
 class App extends Component {
@@ -66,6 +69,9 @@ class App extends Component {
             { src: p, title: "At the Pumpkin Patch", description: "27 months old", vertical: false },
             { src: q, title: "Black and White", description: "28 months old", vertical: true },
             { src: r, title: "Orange Witch", description: "28 months old", vertical: true },
+            { src: s, title: "A Little Raindeer", description: "29 months old", vertical: false },
+            { src: t, title: "Talking to the Bunny", description: "29 months old", vertical: false },
+            { src: u, title: "Happy Chinese Year", description: "30 months old", vertical: true },
             ]
         }
     }
