@@ -63,14 +63,14 @@ p{font-size:$size,
     }
     @media screen and (max-width:1200px){
         column-count:4;
-        width:calc(100%-30px);
+        width:calc(100% - 30px);
         box-sizing:border-box;
          -moz-columns-count: 4;
          -webkit-column-count:4;
     }
     @media screen and (max-width:1000px){
         column-count:3;
-        width:calc(100%-30px);
+        width:calc(100% - 30px);
         box-sizing:border-box;
          -moz-columns-count: 3;
          -webkit-column-count:3;
